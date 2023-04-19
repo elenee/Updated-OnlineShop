@@ -1,0 +1,27 @@
+.main {
+  height: calc(100vh - 60px);
+  width: 100%;
+  background-color: #4098f9;
+  display: flex;
+}
+.first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  padding-left: 10px;
+  color: white;
+  flex: 1;
+}
+.second {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+}
+.second img {
+  max-width: 100%;
+  height: auto;
+}
