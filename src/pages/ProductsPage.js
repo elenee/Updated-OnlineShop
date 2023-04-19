@@ -8,7 +8,7 @@ const ProductsPage = () => {
 
   return <ProductsList products={products}/>;
 };
-
+gi
 export default ProductsPage;
 
 export async function loader() {
